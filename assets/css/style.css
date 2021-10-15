@@ -12,6 +12,12 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
+p{
+  font-size: 18px;
+}
+div{
+  font-size: 18px;
+}
 
 a {
   color: #47b2e4;
@@ -90,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.4s;
 }
 .back-to-top i {
-  font-size: 24px;
+  font-size: 29px;
   color: #fff;
   line-height: 0;
 }
@@ -112,10 +118,10 @@ h1, h2, h3, h4, h5, h6 {
   padding: 15px 0;
 }
 #header.header-scrolled, #header.header-inner-pages {
-  background: rgba(40, 58, 90, 0.9);
+  background: #37517e;
 }
 #header .logo {
-  font-size: 50px;
+  font-size: 55px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -156,14 +162,14 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-size: 15px;
+  font-size: 25px;
   font-weight: 500;
   color: #fff;
   white-space: nowrap;
   transition: 0.3s;
 }
 .navbar a i, .navbar a:focus i {
-  font-size: 12px;
+  font-size: 17px;
   line-height: 0;
   margin-left: 5px;
 }
@@ -175,7 +181,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 30px;
   border-radius: 50px;
   color: #fff;
-  font-size: 14px;
+  font-size: 19px;
   border: 2px solid #47b2e4;
   font-weight: 600;
 }
@@ -203,13 +209,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar .dropdown ul a {
   padding: 10px 20px;
-  font-size: 14px;
+  font-size: 19px;
   text-transform: none;
   font-weight: 500;
   color: #0c3c53;
 }
 .navbar .dropdown ul a i {
-  font-size: 12px;
+  font-size: 18px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
   color: #47b2e4;
@@ -244,7 +250,7 @@ h1, h2, h3, h4, h5, h6 {
 */
 .mobile-nav-toggle {
   color: #fff;
-  font-size: 28px;
+  font-size: 32px;
   cursor: pointer;
   display: none;
   line-height: 0;
@@ -294,7 +300,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
-  font-size: 15px;
+  font-size: 20px;
   color: #37517e;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
@@ -322,7 +328,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 20px;
 }
 .navbar-mobile .dropdown ul a i {
-  font-size: 12px;
+  font-size: 17px;
 }
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
   color: #47b2e4;
@@ -333,6 +339,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /*--------------------------------------------------------------
 # Hero Section
+#38B6FF , blue
+#D7DB2C , yellow
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
@@ -466,7 +474,7 @@ section {
   padding-bottom: 30px;
 }
 .section-title h2 {
-  font-size: 32px;
+  font-size: 45px;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -760,7 +768,8 @@ section {
   transition: all 0.8s;
   z-index: -1;
 }
-.services .icon-box:hover::before {
+
+/* .services .icon-box:hover::before {
   color: rgb(46, 39, 39);
   background: #a9c7db;
   right: 0;
@@ -768,7 +777,7 @@ section {
   width: 100%;
   height: 100%;
   border-radius: 0px;
-}
+} */
 
 
 .services .icon-box .icon {
@@ -1446,18 +1455,18 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  font-size: 14px;
+  font-size: 12px;
   background: #37517e;
 }
 #footer .footer-newsletter {
   padding: 50px 0;
   background: #f3f5fa;
   text-align: center;
-  font-size: 15px;
+  font-size: 10px;
   color: #444444;
 }
 #footer .footer-newsletter h4 {
-  font-size: 24px;
+  font-size: 19px;
   margin: 0 0 20px 0;
   padding: 0;
   line-height: 1;
@@ -1485,7 +1494,7 @@ section {
   bottom: 0;
   border: 0;
   background: none;
-  font-size: 16px;
+  font-size: 9px;
   padding: 0 20px;
   background: #47b2e4;
   color: #fff;
@@ -1537,7 +1546,7 @@ section {
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
   color: #47b2e4;
-  font-size: 18px;
+  font-size: 8px;
   line-height: 1;
 }
 #footer .footer-top .footer-links ul li {
@@ -1559,7 +1568,7 @@ section {
   color: #47b2e4;
 }
 #footer .footer-top .social-links a {
-  font-size: 18px;
+  font-size: 13px;
   display: inline-block;
   background: #47b2e4;
   color: #fff;
@@ -1630,7 +1639,7 @@ section {
 }
 .counts .content .count-box i {
   display: block;
-  font-size: 36px;
+  font-size: 30px;
   color: #3498db;
   float: left;
   line-height: 0;
@@ -1675,3 +1684,66 @@ section {
     max-width: 100%;
   }
 }
+
+/*Features-stylesheets-include-here*/
+#features {
+	text-align:center;
+	padding:2% 0%;
+}
+#features .nav-tabs {
+	display: inline-block;
+	margin-top:20px;
+}
+.tab p {
+	text-align:justify;
+}
+#features .nav-tabs > li.active > a, #features .nav-tabs > li.active > a:hover, #features .nav-tabs > li.active > a:focus {
+	box-shadow: 0 1px 4px rgba(0, 0, 0, .26);
+	border-bottom:2px solid #e73131;
+	background:#f8f8f8;
+}
+#features .nav-tabs > li > a {
+	color:#555;
+	margin-right:0;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, .26);
+	background-color: #fff;
+	border-right: 1px solid #e0e0e0;
+	border-radius:0px;
+	border-bottom:1px solid #FFFFFF;
+	width: 110px;
+	padding: 0;
+	height: 80px;
+	line-height: 80px;
+	font-size: 32px;
+}
+#features .nav-tabs > li > a i.fa {
+	font-size:25px;
+}
+#features .nav-tabs > li.active > a i.fa {
+	color:#e73131;
+}
+#features .nav-tabs > li > a:hover {
+	border-color:transparent;
+	border-right: 1px solid #e0e0e0;
+}
+#features p.feat-sec-1 {
+	padding-top:10px;
+}
+#features .tab-content .feat-sec {
+	margin-top:10px;
+}
+#features .tab-content h5 {
+	text-align:left;
+	font-weight:bolder;
+}
+#features .tab-content .line {
+	float:left;
+}
+.tab {
+	margin-top:20px;
+}
+.tab-img {
+	position:relative;
+	top:50px;
+}
+
